@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styleFormulario2.css">
+
+    <!--    UNIVERSIDAD TECNOLOGICA METROPOLITANA
+                "APLICACIONES WEB"
+
+                3 CUATRIMESTRE
+                    PARCIAL 1
+
+            PRACTICA 3: FORMULARIO 2
+            PROFESOR: JOEL IVAN CHUC UC
+
+         ALUMNO: ANGEL EDUARDO PUC BARRERA -->
+</head>
+<body>
+    <header>
+        <h2>Formulario 2</h2>
+
+    </header>
+
+    <main>
+
+        <label for="name"><b>Nombre:</b></label>
+        <input type="text" name="name" id="name"
+        minlength="5" maxlength="10" required placeholder="Nombre">
+        <br><br>
+
+        <label for="correo"><b>Correo Electronico:</b></label>
+        <input type="text" correo="correo" id="correo" placeholder="Correo electronico">
+        <br><br>
+
+        <label for="url"><b>URL:</b></label>
+        <input type="url" url="url" id="url" placeholder="Ingresa la url de tu pagina">
+        <br><br>
+
+        <label for="date1"><b>Fecha:</b></label>
+        <input type="date" date1="date1" id="date1">
+        <br><br>
+
+        <label for="datetime1"><b>Tiempo:</b></label>
+        <input type="time" datetime1="datetime1" id="datetime1">
+        <br><br>
+
+        <label for="tiempo"><b>Tiempo y Fecha:</b></label>
+        <input type="datetime-local" tiempo="tiempo" id="tiempo">
+        <br><br>
+
+        <label for="mes"><b>Mes:</b></label>
+        <select id="mes" name="mes">
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>Abril</option>
+            <option>Mayo</option>
+            <option>Junio</option>
+            <option>Julio</option>
+            <option>Agosto</option>
+            <option>Septiembre</option>
+            <option>Octubre</option>
+            <option>Noviembre</option>
+            <option>Diciembre</option>
+        </select><br><br>
+        <label><b>Numero</b></label>
+        <input type="number" min="-10" max="10"><br><br>
+        <label><b>Telefono</b></label>
+        <input type="tel" maxlength="10"><br><br>
+        <label><b>Termino de busqueda</b></label>
+        <input type="search"><br><br>
+        <label><b>Color favorito</b></label>
+        <input type="color"><br><br>
+
+
+    </main>
+    
+</body>
+</html>
